@@ -4,8 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { io, Socket } from "socket.io-client";
 
 const SIGNALING_SERVER =
-  process.env.NEXT_PUBLIC_SIGNALING_URL || "http://localhost:3001";
-
+  process.env.NEXT_PUBLIC_SIGNALING_URL || "https://ai-call-mvp-i8zz.onrender.com";
 const rtcConfig: RTCConfiguration = {
   iceServers: [
     { urls: "stun:stun.l.google.com:19302" },
