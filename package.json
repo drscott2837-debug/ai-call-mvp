@@ -1,8 +1,23 @@
 {
-  "name":"ai-video-call-web",
-  "version":"1.0.0",
-  "private":true,
-  "scripts":{"dev":"next dev","build":"next build","start":"next start"},
-  "dependencies":{"next":"16.3.4","react":"19.1.0","react-dom":"19.1.0","socket.io-client":"^4.8.1"},
-  "devDependencies":{"typescript":"^5.0.0","@types/node":"^20.0.0","@types/react":"^19.0.0","@types/react-dom":"^19.0.0"}
+  "name": "ai-video-call-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  }
 }
